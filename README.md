@@ -23,7 +23,7 @@ git commit -m "Add practice Git branching task"
 
 git checkout -b feature/remove-tasks
 
-# here Fast-forward
+# Here Fast-forward
 git checkout master
 git merge feature/add-tasks
 git merge feature/remove-tasks
@@ -34,7 +34,7 @@ bash
 git init task-manager
 cd task-manager
 
-# for create file 
+# for create files 
 touch tasks.txt
 
 #. Add Initial Tasks
@@ -81,7 +81,3 @@ git push -u origin master
 
 
 
-# Remote Repository
-
-git remote add origin https://github.com/Majed-10/Dev2
-git push -u origin master
