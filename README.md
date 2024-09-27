@@ -56,6 +56,7 @@ git checkout -b feature/remove-tasks
 
 # commit that undoes the changes
 git revert HEAD
+it reset --hard HEAD~2  To put everything in a straight line.
 
 
 # Remote Repository
