@@ -52,13 +52,6 @@ git commit -m "Add practice Git branching task"
 
 git checkout -b feature/remove-tasks
 
-# here Fast-forward
-git checkout master
-git merge feature/add-tasks
-git merge feature/remove-tasks
-
-
-
 
 
 # commit that undoes the changes
